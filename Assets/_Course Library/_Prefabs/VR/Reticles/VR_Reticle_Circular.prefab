@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4955246626782319643}
   - component: {fileID: 7142820903540285649}
   m_Layer: 0
-  m_Name: VR_Reticle_1_A
+  m_Name: VR_Reticle_Circular
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25,7 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8656087483511947524}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0.7246276, y: 0.24440044, z: 0.59734166, w: 0.24159107}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
