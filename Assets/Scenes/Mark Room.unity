@@ -1556,7 +1556,7 @@ MonoBehaviour:
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_CustomReticle: {fileID: 8656087483511947524, guid: 2188509353a43dd49b2c17bc8f55b922, type: 3}
+  m_CustomReticle: {fileID: 8656087483511947524, guid: ff0b135978cec8a4088b086f62d60222, type: 3}
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
