@@ -6,12 +6,12 @@ public class MirrorMatChange : MonoBehaviour
 {
     public Material Clear;
     public Material Mirror;
-    private Material theMat;
+    //private Material theMat;
 
     // Start is called before the first frame update
     void Start()
     {
-        theMat = GetComponent<Renderer>().material;
+        //theMat = GetComponent<Renderer>().material;
     }
 
     public void SetMatClear()
