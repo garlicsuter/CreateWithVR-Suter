@@ -7532,8 +7532,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7785142639058902457}
         m_TargetAssemblyTypeName: CreateTrail, Assembly-CSharp
-        m_MethodName: SetWidth
-        m_Mode: 4
+        m_MethodName: StartTrail
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
