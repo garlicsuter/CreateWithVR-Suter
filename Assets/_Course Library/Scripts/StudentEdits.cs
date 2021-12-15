@@ -5,21 +5,15 @@ using UnityEngine;
 public class StudentEdits : MonoBehaviour
 {
     public int lowestBottle = 1;
-    // Start is called before the first frame update
+    
     void Start()
     {
-        //This is andrew monkeys are pretty neat
+        //This is zoey
+        //blueberry jam is pretty neat
        for(int i = 99; i > lowestBottle; i--)
         {
-            Debug.Log(i + "bottles of ketchup on the wall");
+            Debug.Log(i + "bottles of blueberry jam on the wall");
         }
-        Debug.Log("1 bottle of ketchup on the wall");
-    }
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Debug.Log("1 bottle of blueberry on the wall");
     }
 }
