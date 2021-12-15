@@ -8,7 +8,7 @@ public class StudentEdits : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //This is andrew monkeys are pretty neat
+        //Im Andy and I like food
        for(int i = 99; i > lowestBottle; i--)
         {
             Debug.Log(i + "bottles of ketchup on the wall");
