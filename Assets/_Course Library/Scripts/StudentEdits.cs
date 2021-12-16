@@ -5,6 +5,7 @@ using UnityEngine;
 public class StudentEdits : MonoBehaviour
 {
     public int lowestBottle = 1;
+
     
     void Start()
     {
@@ -15,5 +16,45 @@ public class StudentEdits : MonoBehaviour
             Debug.Log(i + "bottles of blueberry jam on the wall");
         }
         Debug.Log("1 bottle of blueberry on the wall");
+
+    // Start is called before the first frame update
+    //kadenHughes
+    void Start()
+    {
+
+        //Francis Katuramu
+        for (int i = 99; i > 2; i--)
+        {
+            Debug.Log("i + bottles of ketchup on the wall");
+        }
+
+        {
+            Debug.Log("1 bottle of ketchup on the wall");
+        }
+
+
+        for (int i = 99; i > lowestBottle; i--)
+        {
+            Debug.Log(i + "bottle of ketchup on the wall");
+        }
+        Debug.Log("1 bottle of ketchup on the wall");
+
+    }
+      
+
+
+    // Update is called once per frame
+    void Update()
+    {
+      
+
+        //This is andrew monkeys are pretty neat
+       for(int i = 99; i > lowestBottle; i--)
+        {
+            Debug.Log(i + "bottles of ketchup on the wall");
+        }
+        Debug.Log("1 bottle of ketchup on the wall");
+
+
     }
 }
