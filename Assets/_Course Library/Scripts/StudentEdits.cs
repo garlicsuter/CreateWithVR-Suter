@@ -9,6 +9,7 @@ public class StudentEdits : MonoBehaviour
     //kadenHughes
     void Start()
     {
+
         for (int i = 99; i > lowestBottle; i--)
         {
             Debug.Log(i + "bottle of ketchup on the wall");
@@ -16,9 +17,12 @@ public class StudentEdits : MonoBehaviour
         Debug.Log("1 bottle of ketchup on the wall");
     }
       
-    // Update is called once per frame
-    void Update()
-    {
-        
+
+        //This is andrew monkeys are pretty neat
+       for(int i = 99; i > lowestBottle; i--)
+        {
+            Debug.Log(i + "bottles of ketchup on the wall");
+        }
+        Debug.Log("1 bottle of ketchup on the wall");
     }
 }
