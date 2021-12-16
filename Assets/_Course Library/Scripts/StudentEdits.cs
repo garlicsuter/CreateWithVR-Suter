@@ -9,8 +9,12 @@ public class StudentEdits : MonoBehaviour
     
     void Start()
     {
+
+        //Im Andy and I like food
+
         //This is zoey
         //blueberry jam is pretty neat
+
        for(int i = 99; i > lowestBottle; i--)
         {
             Debug.Log(i + "bottles of blueberry jam on the wall");
