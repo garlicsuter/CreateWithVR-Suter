@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class StudentEdits : MonoBehaviour
 {
+
+    //My Name is Max Tieu ^-^
+
     public int lowestBottle = 1;
 
     
@@ -21,10 +24,18 @@ public class StudentEdits : MonoBehaviour
         }
         Debug.Log("1 bottle of blueberry on the wall");
 
+
     // Start is called before the first frame update
     //kadenHughes
     void Start()
     {
+
+        for (int numBottle = 99; numBottle>lowBottle; numBottle--)
+        {
+            Debug.Log(numBottle + " Bottles of Ketchup on the Wall");
+        }
+        Debug.Log("1 Bottle of Ketchup on the Wall");
+
 
         //Francis Katuramu
         for (int i = 99; i > 2; i--)
@@ -42,6 +53,7 @@ public class StudentEdits : MonoBehaviour
             Debug.Log(i + "bottle of ketchup on the wall");
         }
         Debug.Log("1 bottle of ketchup on the wall");
+
 
     }
       
